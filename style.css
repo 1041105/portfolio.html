@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B8E7D8;
+    color: #ECFAF5;
+    font-family: "Helvetica";
+    font-size: 18px;
+  }
+  
+  section {
+    background-color: rgba(99, 182, 185, 0.6);
+    padding: 30px;
+    margin: 30px auto;
+    width: 60vw;
+    min-width: 100px;
+    max-width: 2000px;
+  }
+  
+  footer {
+    background-color: rgba(83, 108, 223, 0.4);
+    padding: 30px;
+    width: 80vw;
+    font-style: italic;
+    margin: 30px auto;
+  }
+
+  .nav{
+    font-family: 'Helvetica';
+     font-size: 21px;
+     text-align: center;
+     text-decoration-color: #A5DEC8;
+     display: block;
+     padding: 10px;
+ }
+
+ .nav :hover{
+       text-decoration: underline;
+       background-color: cadetblue;
+       color: aliceblue;
+ }
+  
+  #table {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    text-align:justify;
+  }
+  
+  #footer{
+    text-align: center;
+    background-color: rgba(83, 108, 223, 0.4);
+    border-radius: 20px;
+  }
+  .box {
+    border: 6px dashed rgb(23, 59, 1);
+    border-radius: 50px;
+    box-shadow: 10px 10px;
+  }
+  .box2 {
+    border: 6px  rgb(153, 223, 109);
+    border-radius: 50px;
+    box-shadow: 10px 10px;
+    box-sizing: content-box; width: 75%;
+  }
+  
+  h1 {
+    font-family: 'Helvetica';
+    font-size: 35px;
+   color:  rgba(99, 182, 185, 0.6);
+   text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  
+  img {
+    width: 100%;
+    height: 550px;
+  align-content: center;
+ }
+  
+  a:link {
+    color: #ECFAF5;
+    font-family: 'Helvetica';
+    text-decoration: none;
+    
+  }
+  
+  a:hover, a:active {
+    text-decoration: underline;
+    color: aliceblue;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  
+  div,
+  .common {
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=DynaPuff&family=Montserrat:wght@500&display=swap');
+}
+span {
+    font-family: 'DynaPuff', cursive;
+  font-size: 7rem;
+	letter-spacing: 0.5rem;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-shadow: 
+						7px 7px rgb(46, 128, 128),
+						18px 18px black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+  
+}
